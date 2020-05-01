@@ -53,7 +53,7 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
 const looper = (family) => {
   for (i = 0; i < family.length; i++) 
-    alert(arr[1])
+    alert(family[i])
 }
 
 

@@ -71,7 +71,7 @@ backPack.color = "red"
   After you do the above, alert your entire backPack object.
 */
 
-alert(backBack)
+alert(backPack)
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -101,7 +101,8 @@ var user2 = {
 */
 user2.name = 'Bryan G. Smith';
 user2.email = 'bryan.smith@devmounta.in';
-
+console.log(user2.email)
+console.log(user2.name)
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
@@ -111,7 +112,7 @@ user2.email = 'bryan.smith@devmounta.in';
   Create an empty object called methodCollection.
 */
 
-let methodCollection = { }
+const methodCollection = { }
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
